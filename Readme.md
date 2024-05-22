@@ -61,7 +61,16 @@
       -  Solve the "Fibonacci sequence" problem using dynamic programming.
 
 6. **Advanced Topics:**
-   -  **Graphs and Graph Algorithms (e.g., Depth-First Search, Breadth-First Search):**
-      -  Implement Depth-First Search to traverse a graph.
-   -  **Advanced Data Structures (e.g., Trees, Heaps):**
-      -  Implement a binary search tree and its associated operations (insertion, deletion, search).
+
+   1. **Graphs and Graph Algorithms:**
+
+   -  **Graph Representation:**
+
+      -  Implement adjacency list and adjacency matrix representations for graphs.
+      -  Write a function to convert a graph from adjacency list to adjacency matrix and vice versa.
+
+   -  **Graph Traversal Algorithms:**
+      -  Implement Depth-First Search (DFS) to traverse a graph and discuss its applications.
+      -  Implement Breadth-First Search (BFS) to traverse a graph and discuss its applications.
+      -  Write a program to detect cycles in a directed graph using DFS.
+      -  Implement a program to find the shortest path in an unweighted graph using BFS.
