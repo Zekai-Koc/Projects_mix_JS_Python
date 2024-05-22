@@ -70,7 +70,14 @@
       -  Write a function to convert a graph from adjacency list to adjacency matrix and vice versa.
 
    -  **Graph Traversal Algorithms:**
+
       -  Implement Depth-First Search (DFS) to traverse a graph and discuss its applications.
       -  Implement Breadth-First Search (BFS) to traverse a graph and discuss its applications.
       -  Write a program to detect cycles in a directed graph using DFS.
       -  Implement a program to find the shortest path in an unweighted graph using BFS.
+
+   -  **Graph Algorithms:**
+      -  Implement Dijkstra’s algorithm to find the shortest path in a weighted graph.
+      -  Write a program to find the minimum spanning tree of a graph using Kruskal’s algorithm.
+      -  Implement Prim’s algorithm to find the minimum spanning tree of a graph.
+      -  Implement the Bellman-Ford algorithm to find shortest paths from a single source in a graph with negative weights.
