@@ -81,3 +81,11 @@
       -  Write a program to find the minimum spanning tree of a graph using Kruskal’s algorithm.
       -  Implement Prim’s algorithm to find the minimum spanning tree of a graph.
       -  Implement the Bellman-Ford algorithm to find shortest paths from a single source in a graph with negative weights.
+
+7. **Advanced Data Structures:**
+
+   -  **Trees:**
+      -  Implement a binary search tree (BST) with insertion, deletion, and search operations.
+      -  Write a program to perform in-order, pre-order, and post-order traversals of a binary tree.
+      -  Implement a balanced tree (e.g., AVL tree or Red-Black tree) and discuss the balancing operations.
+      -  Implement a Trie (prefix tree) with insert and search operations for efficient string matching.
