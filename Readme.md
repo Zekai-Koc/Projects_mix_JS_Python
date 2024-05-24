@@ -85,7 +85,13 @@
 7. **Advanced Data Structures:**
 
    -  **Trees:**
+
       -  Implement a binary search tree (BST) with insertion, deletion, and search operations.
       -  Write a program to perform in-order, pre-order, and post-order traversals of a binary tree.
       -  Implement a balanced tree (e.g., AVL tree or Red-Black tree) and discuss the balancing operations.
       -  Implement a Trie (prefix tree) with insert and search operations for efficient string matching.
+
+   -  **Heaps:**
+      -  Implement a binary heap (min-heap and max-heap) with insert, delete, and extract-min (or extract-max) operations.
+      -  Write a program to implement heap sort using a binary heap.
+      -  Implement a priority queue using a binary heap and discuss its applications.
