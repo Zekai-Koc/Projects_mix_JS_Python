@@ -24,16 +24,30 @@
 // var volume = calculateSphereVolume(radius);
 // console.log("The volume of the sphere is: " + volume);
 
-class Sphere {
-   constructor(radius) {
-      this.radius = radius;
-   }
+// class Sphere {
+//    constructor(radius) {
+//       this.radius = radius;
+//    }
 
-   volume() {
-      return (4 / 3) * Math.PI * Math.pow(this.radius, 3);
-   }
+//    volume() {
+//       return (4 / 3) * Math.PI * Math.pow(this.radius, 3);
+//    }
+// }
+
+// const radius = parseFloat(prompt("Enter the radius of the sphere:"));
+// const sphere = new Sphere(radius);
+// console.log("The volume of the sphere is: " + sphere.volume());
+
+function power(base, exponent) {
+   if (exponent === 0) return 1;
+   if (exponent === 1) return base;
+   return base * power(base, exponent - 1);
+}
+
+function calculateSphereVolume(radius) {
+   return (4 / 3) * Math.PI * power(radius, 3);
 }
 
 const radius = parseFloat(prompt("Enter the radius of the sphere:"));
-const sphere = new Sphere(radius);
-console.log("The volume of the sphere is: " + sphere.volume());
+const volume = calculateSphereVolume(radius);
+console.log("The volume of the sphere is: " + volume);
